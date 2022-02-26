@@ -30,5 +30,18 @@
 * Change Close Panel short cut to: ctrl + w
 * Change Duplicate Panel short cut to: ctrl + t
 * Change Find short cut to: ctrl + f
-  
+* Create the [profile file](profile.ps1) under /Documents/PowerShell/Microsoft.PowerShell_profile.ps1
+ 
+
+## Git
+* Download and install [Git](https://git-scm.com/)
+* Add git path
+```
+$env:Path += ";C:\Program Files\Git\bin"
+```
+* Install [git posh](https://github.com/dahlbyk/posh-git/blob/master/README.md#git-status-summary-information ) for better git auto complete
+* Add import posh module command to powershell profile
+```
+Import-Module posh-git 
+```
 
