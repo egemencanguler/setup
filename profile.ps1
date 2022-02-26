@@ -46,7 +46,7 @@ function exitdalak()
     cd ..
 }
 
-function gitupdatesubmodul()
+function gitupdatesubmodule()
 {
     git submodule update --init --recursive
 }
