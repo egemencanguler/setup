@@ -7,23 +7,11 @@
 ## [LightShot](https://app.prntscr.com/en/) (Screenshot Tool)
 * Change shortcut to alt + s
 
-## [PowerToys](https://github.com/microsoft/PowerToys)
-* Always On Top
-  * Change short cut to: ctrl + q
-  * Increate thickness
-* Keyboard Manager
-  * ctrl + I = Up
-  * ctrl + K = Down
-  * ctrl + J = Left
-  * ctrl + L = Right
-  * ctrl + U = Alt + Left
-  * ctrl + O = Alt + Right
-* PowerToys Run
-  * Calculator,Folder,Windows Search (Disable Include in global results),
-  * Program,Shell,Windows System Commands, Window Walker
+## [ueli](https://ueli.app/#/)
+Keystore launcher
+* Put your shortcuts under ```C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs``` to make them show up at the launcher
 
 ## Windows Terminal
-   
 * Download [Windows Terminal](https://github.com/microsoft/terminal/releases)
 * Download [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
 * Change default shell to powershell from windows powershell
@@ -39,9 +27,5 @@
 ```
 $env:Path += ";C:\Program Files\Git\bin"
 ```
-* Install [git posh](https://github.com/dahlbyk/posh-git/blob/master/README.md#git-status-summary-information ) for better git auto complete
-* Add import posh module command to powershell profile
-```
-Import-Module posh-git 
-```
+
 
