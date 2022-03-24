@@ -31,7 +31,7 @@
 * Change Duplicate Panel short cut to: ctrl + t
 * Change Find short cut to: ctrl + f
 * Create the [profile file](profile.ps1) under /Documents/PowerShell/Microsoft.PowerShell_profile.ps1
- 
+* Set script execution permission ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
 
 ## Git
 * Download and install [Git](https://git-scm.com/)
