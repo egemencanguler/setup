@@ -1,5 +1,5 @@
 $env:Path += ";C:\Program Files\Git\bin"
-Import-Module posh-git
+# Import-Module posh-git
 
 
 $Desktop = "C:\Users\USER\Desktop"
@@ -21,10 +21,10 @@ function text($path)
 function profile(){ text($PROFILE) }
 
 
-function godesktop(){cd $Desktop}
-function godocuments(){cd $Documents}
-function gogame(){cd $UnityProjects}
-function gonotes(){text($Notes)}
+function desktop(){cd $Desktop}
+function documents(){cd $Documents}
+function games(){cd $UnityProjects}
+function notes(){text($Notes)}
 function open($path){explorer.exe $path}
 
 
@@ -51,3 +51,7 @@ function gitupdatesubmodule()
     git submodule update --init --recursive
 }
 
+function prompt {
+  $p = Split-Path -leaf -path (Get-Location)
+  "$p> "
+}
