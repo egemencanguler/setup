@@ -21,6 +21,8 @@ Keystore launcher
 * Create the [profile file](profile.ps1) under /Documents/PowerShell/Microsoft.PowerShell_profile.ps1
 * Set script execution permission ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
 
+* Try using where command in cmd. Like this where wt.exe, you should get full path (mine C:\Users\{user-name}\AppData\Local\Microsoft\WindowsApps\wt.exe
+
 ## Git
 * Download and install [Git](https://git-scm.com/)
 * Add git path
