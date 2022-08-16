@@ -1,4 +1,5 @@
 $env:Path += ";C:\Program Files\Git\bin"
+$env:Path += ";C:\Users\USER\Documents\Scripts"
 # Import-Module posh-git
 
 
@@ -6,6 +7,7 @@ $Desktop = "C:\Users\USER\Desktop"
 $Documents = "C:\Users\USER\Documents"
 $UnityProjects = "C:\Users\USER\Documents\UnityProjects"
 $Notes = "C:\Users\USER\Documents\Sync\notes"
+$Scripts = "C:\Users\USER\Documents\Scripts"
 
 $UrlSetup = "https://github.com/egemencanguler/setup/"
 $UrlWiki = "https://github.com/dalakgames/dalak_wiki"
@@ -25,6 +27,8 @@ function desktop(){cd $Desktop}
 function documents(){cd $Documents}
 function games(){cd $UnityProjects}
 function notes(){text($Notes)}
+function scripts(){cd($Scripts)}
+
 function open($path){explorer.exe $path}
 
 
